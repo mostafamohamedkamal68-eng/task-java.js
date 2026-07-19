@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../tasks/taskjs 4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Management System</h1>
+        <div class="form">
+            <input type="text" id="name" placeholder="Enter Name">
+            <input type="email" id="email" placeholder="Enter Email">
+            <button id="addBtn">
+                <i class="fa-solid fa-plus"></i>
+                Add User
+            </button>
+        </div>
+        <div class="search">
+            <input type="text" id="search" placeholder="Search By Name...">
+        </div>
+        <div class="filters">
+            <button id="showAll">Show All</button>
+            <button id="showActive">Active</button>
+            <button id="showInactive">Inactive</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+    <script src="../tasks/scriptjs 4.js"></script>
+</body>
+</html>
